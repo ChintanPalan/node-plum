@@ -1,0 +1,1 @@
+{ "singleQuote": true, "semi": true, "parser": "typescript", "tabWidth": 2,"arrowParens": "always", "endOfLine": "lf" }
