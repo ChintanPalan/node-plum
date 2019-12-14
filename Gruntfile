@@ -1,4 +1,14 @@
 module.exports = (grunt) => {
-  grunt.initConfig({});
-  grunt;
+  grunt.initConfig({
+    ts: {
+      options: { rootDir: 'src' },
+      default: {
+        outDir: 'dist/',
+        src: ['src/**/*.ts'],
+        watch: process.env.NODE_WATCH ? ['src'] : undefined
+      }
+    }
+  });
+  grunt.loadNpmTasks('grunt-ts');
+  grunt.registerTask('default', ['ts']);
 };
