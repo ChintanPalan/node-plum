@@ -1,5 +1,5 @@
 # node-plum
-A robust chrome extension development framework
+A robust browser extension development framework
 
 ## Setup Development Environment
 
