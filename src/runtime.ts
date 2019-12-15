@@ -1,3 +1,9 @@
+/**
+ * @file runtime.ts
+ * @class Runtime
+ * @description All the functions / properties / events handlers for chrome.runtime API
+ */
+
 class Runtime {
   /**
    * @method getId
